@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="media-queries.css">
+     <link rel="import" href="/svgs/">
+     <link rel="import" href="/imgs/">
+    <link rel="stylesheet" href="/songs/">
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="aside-h   bg-grey rounded">
+
+                <ul>
+                    <li>
+                        <div class="logo">
+                            <img src="/svgs/logo.svg" alt="logo">
+                            <button><img src="/svgs/cross.svg"></button>
+                        </div>
+
+
+                    </li>
+                    <li class="home ">
+                        <img src="/svgs/home.svg" alt="home-icon">
+                        <span class="color">Home</span>
+                    </li>
+                    <li class="search ">
+                        <img src="/svgs/search.svg" alt="search-icon">
+                        <span class="color">Search</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="library border bg-grey rounded">
+                <header class="align-items">
+                    <img src="/svgs/library.svg" alt="library">
+                    <span class="color">Library</span>
+                </header>
+                <div class="songs-list">
+                    <ul>
+                        <!-- Songs list will be populated dynamically -->
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="right border bg-grey  rounded">
+
+            <div class="upper-border">
+                <div class="menu-toggle">
+                    <div class="hamburger"><button><img src="/svgs/hamburger.svg" alt=""></button></div>
+                </div>
+                <div class="login-signup">
+                    <button class="login">Login</button>
+                    <button class="signup li-last">Sign Up</button>
+                </div>
+            </div>
+
+
+            <div class="cards-container ">
+              
+                <div class="my-playlist">
+                    <h1>My Playlist</h1>
+                    <ul>
+                        <!-- Playlist items will be populated dynamically -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="songcontrol-footer border rounded">
+                <div class="sName"></div>
+                <div class="seekbar-d flexbox">
+                    <input type="range" value="0" name="points" min="0" id="seekbar">
+                </div>
+                <span id="timer">00:00</span>
+                <div class="controls">
+                    <button class="prev"><img src="/svgs/prev.svg" alt="prev"></button>
+                    <button class="playandpause"><img class="pandp" src="/svgs/play.svg" alt="play/pause"></button>
+                    <button class="next"><img src="/svgs/next.svg" alt="next"></button>
+                    <button class="volume-button"><input type="range" class="audio-volume" value="50" name="points"  ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

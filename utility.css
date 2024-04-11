@@ -1,0 +1,46 @@
+
+.flexbox{
+    display: flex;
+   gap: 5px;
+   margin: 10px;
+}
+.border{
+    border: 2px solid #161111d9;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.align-items{
+    display: flex;
+    align-items: center;
+}
+.m-1{
+    margin-bottom: 20px;
+}
+.p-l{
+    padding: 10px;
+}
+.bg-black{
+background-color: black;
+}
+.bg-grey{
+background-color: #161111d9;
+}
+.rounded{
+    border-radius: 8px;
+}
+.m-t{
+   margin-top: 20px; 
+}
+.color{
+    color: white;
+}
+.float{
+    float: right;
+}
